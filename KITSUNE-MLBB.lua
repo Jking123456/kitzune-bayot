@@ -638,9 +638,9 @@ uistart({
   CAtext("🛡 CORE SECURITY & MAP ENGINE", "#00E5FF", "13sp", true),
   CAswitch("ACTIVATE ANTI REPORT\n", function() antiban() end),
   CAswitch("ACTIVATE ANTI BAN", function() anticheat() end),
+  CAtext("Notice: toggle on when you're in lobby.\n", "#666666", "11sp"),
   CAswitch("MAPHACK (NO ICON)", function() map() end),
   CAswitch("MAPHACK FULLSIGHT", function() applyMapIcon_sansxml(true) end, function() end),
-  CAtext("Notice: toggle on when you're in lobby.\n", "#666666", "11sp"), -- Fixed punctuation
   CAswitch("NO GRASS (HIGH)\n", function() grass() end),
   
   CAtext("\n🚁 DRONE VIEW", "#00E5FF", "13sp", true), -- Fixed: Added missing color code
