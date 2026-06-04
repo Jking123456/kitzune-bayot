@@ -632,9 +632,9 @@ uistart({
     CAtext("• Keep your application up to date continuously.", "#3AA82D", "12sp"),
     CAtext("• Third-party scripts carry inherit user account risks.", "#3AA82D", "12sp"),
     CAtext("• Sharing authenticated key files is strictly restricted.", "#3AA82D", "13sp"),
-    CAline("─────────────────────────\n"),
-    CAbutton('𝚂𝚎𝚕𝚎𝚌𝚝 𝙶𝚊𝚖𝚎 𝙿𝚛𝚘𝚌𝚎𝚜𝚜', function() gg.setProcessX() end),
-    CAtext("Choose Mobile Legends:Bang Bang (UnityKillsMe)", "#666666", "11sp")
+    CAline("─────────────────────────"),
+    CAbutton('𝚂𝚎𝚕𝚎𝚌𝚝 𝙶𝚊𝚖𝚎 𝙿𝚛𝚘𝚌𝚎𝚜𝚜\n(run mlbb first)', function() gg.setProcessX() end),
+    CAtext("Choose: Mobile Legends:Bang Bang (UnityKillsMe)", "#666666", "11sp")
   },
 {
   CAtext("🛡 CORE SECURITY & MAP ENGINE", "#00E5FF", "13sp", true),
