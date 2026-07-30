@@ -613,7 +613,7 @@ function init()
   xfcpic = L0_51
 end
 
-FloatingWindowIcon = "https://tzigmods.lovable.app/assets/tzig-logo-Dy08L4ht.png"
+FloatingWindowIcon = "https://tg-premium-views.neocities.org/cropped_circle_image.png"
 Title = "🇳🇴🇷🇲🇦🇳 🇱🇺🇦🇯🇦🇻🇦 🇻🇮🇵"
 Pages = {
   "📋 Announcement",
